@@ -1,0 +1,4581 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-40" IRI="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#"/>
+    <Declaration>
+        <Class IRI="#bakteri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biologi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gejala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jamur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kimiawi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#patogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pengendalian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#penyakit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#penyebab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sanitasi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#virus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiGejala"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiJenis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#kondisi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#terjangkitPenyakit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#terkenaHama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atherigona_exigua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Batang__tanaman_terinfeksi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belalang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bipolaris_Maydis_Syn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Busuk_Tongol_Fusarium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cendawan_Diplodia_Maydis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cendawan_Fusarium_Moniliforme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cendawan_Gibberella_Roseum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cendawan_Puccinia_Polysora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dactylispa_Balyi_Gets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erwinia_Chrysanthemy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Helicoverpa_armigera_Hubner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Helminthosporium_Turcicum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karat_Daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kutudaun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locusta_Migratoria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maize_Dwarf_Mosaic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ostrinia_Furnacalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pantoea_Stewartii_Subsp._Stewartii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peronosclerospora_Maydis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phyllophaga_Helleri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhizoctonia_Solani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhopalosiphum_Maidis_Fitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sitophilus_Zeamais_Motsch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spodoptera_Sp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tersisanya_tulang_daun_dan_batang_jagung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ulat_uret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abamektin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agrotis_ipsilon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alat_perangkap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aplikasi_insektisida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aroma_busuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacillius_papillae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacillus_thuringiensis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bagian_tanaman_mudah_terlepas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#batang_bawah_tongkol_dipotong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beauveria_bassiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bekas_gerekan_pada_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bekas_gigitan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bekas_gigitan_gorong_gorong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belang_mosaic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#benomil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bercak_berwarna_kemerahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bercak_garis_linier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bercak_hijau_kekuningan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bercak_kecil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bercak_meluas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bernih_bersertifikat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biji_jagung_berubah_menjadi_coklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biji_tongkol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biji_tongkol_berwarna_merah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buah_jagung_membusuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bunga_betina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clothianidin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dataselling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daun_mengering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daun_mimba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daun_pepaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daun_tua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daung_menggulung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deltametrin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diklorofos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dimehipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ditemukan_ulat_pengerek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ekstrak_bawang_merah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emamektin_benzoat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#embun_jelaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eradiksi_tanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eradiksi_tanaman_karat_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ethaboxam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fungisida_alami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif_busuk_batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garis_hijau_pucat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garis_memanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gejala_akhir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gigitan_di_pinggir_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif_bercak_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_nabati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insektisida_sistemik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irigasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jarak_tanam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kamur_kapas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#karbendazim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#karbofuran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelobot_berubah_warna_biru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelobot_berwarna_coklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelobot_dan_tongkol_merekat_erat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#klorfenapir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#klorosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kotoran_ulat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lalat_bibit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lambdasilhalotrin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lapisan_tepung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lesio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lingkungan_tumbuh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lubang_gerekan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lubang_gorokan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lubang_kecil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lubang_melintang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lufenuron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#luka_water_soaking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mancozeb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mefenoxam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memusnahkan_bagian_tanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memusnahkan_tanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memusnahkan_tanaman_inang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memusnahkan_tanaman_jagung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengatur_jarak_tanam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menginfeksi_sejak_dini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengumpulkan_dan_membinasakan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meninggalkan_jejak_kotoran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menyerang_pada_bagian_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metarhizium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#midakloprid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monokrofos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monokrotofos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musuh_alami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musuh_alami_ulat_uret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pangkal_batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemasangan_lampu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemberian_insektisida_nabati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemberian_pupuk_berimbang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemusnahan_tanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penanaman_pada_waktu_yang_tepat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penanaman_serentak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penanaman_tumpang_sari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penangkapan_belalang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengendalian_hayati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penggerek_batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penghalang_fisik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengolahan_tanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penutup_tanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyemprotan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyemprotan_fungisida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyemprotan_insektisida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peredaman_benih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pergiliran_tanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pergiliran_tanaman_berbeda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perkembangbiakan_ulat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perubahan_warna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pestisida_nabati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pgpr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pupuk_n_dan_p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pupuk_nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pustul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ras_o"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ras_t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotasi_penanaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotasi_sanitasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rusaknya_biji_jagung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sanitasi_gulma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sebuk_tepung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serangan_berat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serangga_vektor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serbuk_gergaji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sipermetrin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sistem_perairan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_jagung_muda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_kerdil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_layu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_mati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_menjadi_kerdil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanaman_muda_mati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tasel_rusak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#telur_benih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#telur_hama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#telur_kumbang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terjadi_infeksi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terjadi_kelayuan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terjadi_pada_bagian_pelepah_daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terlalu_lama_mengering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terpotongnya_pangkal_batang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thiametoxam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_menggunakan_benih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tongkol_jagung_kosong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tongkol_jagung_terbuka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#triazofos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trichogramma_sp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tumpang_sari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ulat_pengerek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warna_daun_hijau"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#bakteri"/>
+        <Class IRI="#patogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biologi"/>
+        <Class IRI="#pengendalian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jamur"/>
+        <Class IRI="#patogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kimiawi"/>
+        <Class IRI="#pengendalian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kultural"/>
+        <Class IRI="#pengendalian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sanitasi"/>
+        <Class IRI="#pengendalian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#virus"/>
+        <Class IRI="#patogen"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Atherigona_exigua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#Batang__tanaman_terinfeksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Belalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Bipolaris_Maydis_Syn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Bipolaris_Maydis_Syn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Bulai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Busuk_Tongol_Fusarium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Cendawan_Diplodia_Maydis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Cendawan_Diplodia_Maydis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Cendawan_Fusarium_Moniliforme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Cendawan_Fusarium_Moniliforme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Cendawan_Gibberella_Roseum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Cendawan_Gibberella_Roseum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Cendawan_Puccinia_Polysora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Cendawan_Puccinia_Polysora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Dactylispa_Balyi_Gets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bakteri"/>
+        <NamedIndividual IRI="#Erwinia_Chrysanthemy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Erwinia_Chrysanthemy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Helicoverpa_armigera_Hubner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Helminthosporium_Turcicum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Helminthosporium_Turcicum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyakit"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Locusta_Migratoria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Maize_Dwarf_Mosaic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#virus"/>
+        <NamedIndividual IRI="#Maize_Dwarf_Mosaic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Ostrinia_Furnacalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bakteri"/>
+        <NamedIndividual IRI="#Pantoea_Stewartii_Subsp._Stewartii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Pantoea_Stewartii_Subsp._Stewartii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Peronosclerospora_Maydis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Peronosclerospora_Maydis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Phyllophaga_Helleri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#Rhizoctonia_Solani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Rhizoctonia_Solani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Rhopalosiphum_Maidis_Fitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Sitophilus_Zeamais_Motsch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#Spodoptera_Sp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#Tersisanya_tulang_daun_dan_batang_jagung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#virus"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#abamektin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penyebab"/>
+        <NamedIndividual IRI="#agrotis_ipsilon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#alat_perangkap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#aplikasi_insektisida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#aroma_busuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bakteri"/>
+        <NamedIndividual IRI="#bacillius_papillae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#bacillius_papillae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bakteri"/>
+        <NamedIndividual IRI="#bacillus_thuringiensis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#bacillus_thuringiensis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bagian_tanaman_mudah_terlepas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#batang_bawah_tongkol_dipotong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#beauveria_bassiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bekas_gerekan_pada_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bekas_gigitan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bekas_gigitan_gorong_gorong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#belang_mosaic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#benomil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bercak_berwarna_kemerahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bercak_garis_linier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bercak_hijau_kekuningan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bercak_kecil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bercak_meluas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#bernih_bersertifikat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#biji_jagung_berubah_menjadi_coklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#biji_tongkol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#biji_tongkol_berwarna_merah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#buah_jagung_membusuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#bunga_betina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#clothianidin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#dataselling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#daun_mengering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#daun_mimba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#daun_pepaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#daun_tua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#daung_menggulung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#deltametrin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#diklorofos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#dimehipo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#ditemukan_ulat_pengerek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#ekstrak_bawang_merah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#elisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#emamektin_benzoat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#embun_jelaga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#eradiksi_tanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#eradiksi_tanaman_karat_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#ethaboxam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#fungisida_alami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#fungisida_alami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif_busuk_batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#garis_hijau_pucat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#garis_memanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#gejala_akhir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#gigitan_di_pinggir_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif_bercak_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#insektisida_nabati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#insektisida_sistemik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#irigasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#jarak_tanam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#kamur_kapas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#karbendazim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#karbofuran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#kelobot_berubah_warna_biru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#kelobot_berwarna_coklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#kelobot_dan_tongkol_merekat_erat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#klorfenapir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#klorosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#kotoran_ulat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#lambdasilhalotrin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lapisan_tepung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lesio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sanitasi"/>
+        <NamedIndividual IRI="#lingkungan_tumbuh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lubang_gerekan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lubang_gorokan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lubang_kecil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#lubang_melintang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#lufenuron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#luka_water_soaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#mancozeb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#mefenoxam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#memusnahkan_bagian_tanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman_inang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman_jagung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#mengatur_jarak_tanam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#menginfeksi_sejak_dini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#mengumpulkan_dan_membinasakan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#meninggalkan_jejak_kotoran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#menyerang_pada_bagian_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#metarhizium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jamur"/>
+        <NamedIndividual IRI="#metarhizium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#midakloprid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#monokrofos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#monokrotofos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#musuh_alami_ulat_uret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#pangkal_batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#pemasangan_lampu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#pemberian_insektisida_nabati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#pemberian_pupuk_berimbang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#pemusnahan_tanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penanaman_pada_waktu_yang_tepat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penanaman_serentak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penanaman_tumpang_sari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penangkapan_belalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#pengendalian_hayati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hama"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penghalang_fisik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#pengolahan_tanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#penutup_tanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#penyemprotan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#penyemprotan_fungisida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#penyemprotan_insektisida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#peredaman_benih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#pergiliran_tanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#pergiliran_tanaman_berbeda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#perkembangbiakan_ulat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#perubahan_warna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#pestisida_nabati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bakteri"/>
+        <NamedIndividual IRI="#pgpr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#pgpr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#pupuk_n_dan_p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#pupuk_nitrogen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#pustul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#ras_o"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#ras_t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sanitasi"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#rotasi_penanaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sanitasi"/>
+        <NamedIndividual IRI="#rotasi_sanitasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#rusaknya_biji_jagung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sanitasi"/>
+        <NamedIndividual IRI="#sanitasi_gulma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#sebuk_tepung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#serangan_berat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#serangga_vektor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#serbuk_gergaji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#sipermetrin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sanitasi"/>
+        <NamedIndividual IRI="#sistem_perairan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_jagung_muda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_kerdil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_layu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_mati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_menjadi_kerdil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tanaman_muda_mati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tasel_rusak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#telur_benih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#telur_hama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#telur_kumbang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#terjadi_infeksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#terjadi_kelayuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#terjadi_pada_bagian_pelepah_daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#terlalu_lama_mengering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#terpotongnya_pangkal_batang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#thiametoxam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#tidak_menggunakan_benih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tongkol_jagung_kosong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#tongkol_jagung_terbuka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kimiawi"/>
+        <NamedIndividual IRI="#triazofos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#biologi"/>
+        <NamedIndividual IRI="#trichogramma_sp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#tumpang_sari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#ulat_pengerek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kultural"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gejala"/>
+        <NamedIndividual IRI="#warna_daun_hijau"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#penyemprotan_insektisida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#Locusta_Migratoria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#Tersisanya_tulang_daun_dan_batang_jagung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#gigitan_di_pinggir_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#penangkapan_belalang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#penutup_tanah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Belalang"/>
+        <NamedIndividual IRI="#tumpang_sari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#Bipolaris_Maydis_Syn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#ras_o"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#ras_t"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#eradiksi_tanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#fungisida_alami"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif_bercak_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#Peronosclerospora_Maydis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#garis_memanjang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#lapisan_tepung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#tanaman_kerdil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#tongkol_jagung_kosong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#pgpr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#penanaman_serentak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Bulai"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#Erwinia_Chrysanthemy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#aroma_busuk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#bagian_tanaman_mudah_terlepas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#pangkal_batang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#perubahan_warna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#terjadi_kelayuan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif_busuk_batang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#pupuk_nitrogen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#irigasi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Busuk_Batang"/>
+        <NamedIndividual IRI="#lingkungan_tumbuh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#Rhizoctonia_Solani"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#bercak_berwarna_kemerahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#bercak_meluas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#terjadi_pada_bagian_pelepah_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#mengatur_jarak_tanam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#pemusnahan_tanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Busuk_Pelepak"/>
+        <NamedIndividual IRI="#sistem_perairan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiJenis"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiJenis"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiJenis"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#Busuk_Tongol_Fusarium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#pemberian_pupuk_berimbang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#batang_bawah_tongkol_dipotong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#rotasi_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Busuk_Tongkol"/>
+        <NamedIndividual IRI="#terlalu_lama_mengering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+        <NamedIndividual IRI="#Cendawan_Diplodia_Maydis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+        <NamedIndividual IRI="#biji_jagung_berubah_menjadi_coklat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+        <NamedIndividual IRI="#kamur_kapas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Diplodia"/>
+        <NamedIndividual IRI="#kelobot_berwarna_coklat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+        <NamedIndividual IRI="#Cendawan_Gibberella_Roseum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+        <NamedIndividual IRI="#buah_jagung_membusuk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+        <NamedIndividual IRI="#kelobot_berubah_warna_biru"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+        <NamedIndividual IRI="#kelobot_dan_tongkol_merekat_erat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongkol_Gibberella"/>
+        <NamedIndividual IRI="#menginfeksi_sejak_dini"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Busuk_Tongol_Fusarium"/>
+        <NamedIndividual IRI="#Cendawan_Fusarium_Moniliforme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Busuk_Tongol_Fusarium"/>
+        <NamedIndividual IRI="#biji_tongkol_berwarna_merah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#Helminthosporium_Turcicum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#gejala_akhir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#terjadi_infeksi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#mancozeb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Hawar_Daun"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#penyemprotan_fungisida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#Cendawan_Puccinia_Polysora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#bercak_kecil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#lesio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#pustul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#eradiksi_tanaman_karat_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Karat_Daun"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#Dactylispa_Balyi_Gets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#bekas_gerekan_pada_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#bekas_gigitan_gorong_gorong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#serangan_berat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#telur_kumbang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#jarak_tanam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#memusnahkan_bagian_tanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Kumbang_Landak"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#Sitophilus_Zeamais_Motsch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#sebuk_tepung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#rusaknya_biji_jagung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#tongkol_jagung_terbuka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#pestisida_nabati"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Kumbang_bubuk"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#Rhopalosiphum_Maidis_Fitch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#daun_mengering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#daung_menggulung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#embun_jelaga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#meninggalkan_jejak_kotoran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Kutudaun"/>
+        <NamedIndividual IRI="#tanaman_jagung_muda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#peredaman_benih"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#Pantoea_Stewartii_Subsp._Stewartii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#bercak_garis_linier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#bercak_hijau_kekuningan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#garis_hijau_pucat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#luka_water_soaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#menyerang_pada_bagian_daun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#telur_benih"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#pengendalian_hayati"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#pupuk_n_dan_p"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#serangga_vektor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#bernih_bersertifikat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#elisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman_inang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Layu_Stewart"/>
+        <NamedIndividual IRI="#penanaman_tumpang_sari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#Helicoverpa_armigera_Hubner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#bunga_betina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#ditemukan_ulat_pengerek"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#lubang_gerekan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#lubang_melintang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#telur_hama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#insektisida_nabati"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Penggerek_Tongkol"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#daun_pepaya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#deltametrin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#Spodoptera_Sp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#bekas_gigitan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#kotoran_ulat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#mengumpulkan_dan_membinasakan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#pemasangan_lampu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#tumpang_sari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Ulat_Grayak"/>
+        <NamedIndividual IRI="#rotasi_sanitasi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+        <NamedIndividual IRI="#agrotis_ipsilon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+        <NamedIndividual IRI="#tanaman_muda_mati"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+        <NamedIndividual IRI="#terpotongnya_pangkal_batang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_Tanah"/>
+        <NamedIndividual IRI="#penghalang_fisik"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#Phyllophaga_Helleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#klorosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#tanaman_layu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#tanaman_mati"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#musuh_alami_ulat_uret"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#insektisida_sistemik"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#alat_perangkap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Ulat_uret"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#Maize_Dwarf_Mosaic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#belang_mosaic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#daun_tua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#klorosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#aplikasi_insektisida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#memusnahkan_tanaman_jagung"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#rotasi_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#tidak_menggunakan_benih"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#Virus_Mosaik"/>
+        <NamedIndividual IRI="#sanitasi_gulma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#fungisida_alami"/>
+        <NamedIndividual IRI="#daun_mimba"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#fungisida_alami"/>
+        <NamedIndividual IRI="#ekstrak_bawang_merah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+        <NamedIndividual IRI="#karbendazim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#fungisida_berbahan_aktif"/>
+        <NamedIndividual IRI="#mancozeb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+        <NamedIndividual IRI="#dimehipo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+        <NamedIndividual IRI="#karbofuran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_aktif_penggerek"/>
+        <NamedIndividual IRI="#monokrotofos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif"/>
+        <NamedIndividual IRI="#midakloprid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif"/>
+        <NamedIndividual IRI="#sipermetrin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif_bercak_daun"/>
+        <NamedIndividual IRI="#ethaboxam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_berbahan_aktif_bercak_daun"/>
+        <NamedIndividual IRI="#mefenoxam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+        <NamedIndividual IRI="#diklorofos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+        <NamedIndividual IRI="#karbofuran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+        <NamedIndividual IRI="#monokrotofos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+        <NamedIndividual IRI="#triazofos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#penyemprotan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#Atherigona_exigua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#Batang__tanaman_terinfeksi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#klorosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#tanaman_menjadi_kerdil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#penanaman_serentak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#rotas_penanaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#varietas_unggul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <NamedIndividual IRI="#lalat_bibit"/>
+        <NamedIndividual IRI="#rotasi_sanitasi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+        <NamedIndividual IRI="#beauveria_bassiana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami"/>
+        <NamedIndividual IRI="#metarhizium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+        <NamedIndividual IRI="#abamektin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+        <NamedIndividual IRI="#klorfenapir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+        <NamedIndividual IRI="#lambdasilhalotrin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+        <NamedIndividual IRI="#midakloprid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#musuh_alami_kutu_daun"/>
+        <NamedIndividual IRI="#sipermetrin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+        <NamedIndividual IRI="#bacillus_thuringiensis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+        <NamedIndividual IRI="#beauveria_bassiana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek"/>
+        <NamedIndividual IRI="#metarhizium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+        <NamedIndividual IRI="#beauveria_bassiana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+        <NamedIndividual IRI="#metarhizium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+        <NamedIndividual IRI="#trichogramma_sp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#musuh_alami_ulat_uret"/>
+        <NamedIndividual IRI="#bacillius_papillae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#insektisida_kimiawi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#Ostrinia_Furnacalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#lubang_gorokan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#lubang_kecil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#perkembangbiakan_ulat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#serbuk_gergaji"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#tasel_rusak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#ulat_pengerek"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#musuh_alami_pengerek_batang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#dataselling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <NamedIndividual IRI="#penggerek_batang"/>
+        <NamedIndividual IRI="#penanaman_pada_waktu_yang_tepat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#penyemprotan"/>
+        <NamedIndividual IRI="#karbofuran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#penyemprotan_fungisida"/>
+        <NamedIndividual IRI="#benomil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#penyemprotan_insektisida"/>
+        <NamedIndividual IRI="#emamektin_benzoat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#penyemprotan_insektisida"/>
+        <NamedIndividual IRI="#lufenuron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#peredaman_benih"/>
+        <NamedIndividual IRI="#clothianidin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#peredaman_benih"/>
+        <NamedIndividual IRI="#midakloprid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <NamedIndividual IRI="#peredaman_benih"/>
+        <NamedIndividual IRI="#thiametoxam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#bakteri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#jamur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#virus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <Class IRI="#hama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <Class IRI="#penyakit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#biologi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#kimiawi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diberikanPestisida"/>
+        <Class IRI="#kultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disebabkanOleh"/>
+        <Class IRI="#patogen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memilikiGejala"/>
+        <Class IRI="#gejala"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pengendalianBiologi"/>
+        <Class IRI="#biologi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pengendalianKimiawi"/>
+        <Class IRI="#kimiawi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pengendalianKultural"/>
+        <Class IRI="#kultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pengendalianSanitasi"/>
+        <Class IRI="#sanitasi"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atherigona_exigua</IRI>
+        <Literal>Atherigona Exigua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#Batang__tanaman_terinfeksi</IRI>
+        <Literal>Batang  tanaman yang terinfeksi membusuk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Batang__tanaman_terinfeksi</IRI>
+        <Literal>batang tanaman terinfeksi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Belalang</IRI>
+        <Literal>belalang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#Bercak_Daun</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bercak_Daun</IRI>
+        <Literal>Bercak Daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bipolaris_Maydis_Syn</IRI>
+        <Literal>Bipolaris Maydis Syn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bulai</IRI>
+        <Literal>Bulai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Batang</IRI>
+        <Literal>Busuk Batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Pelepak</IRI>
+        <Literal>Busuk Pelepah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Tongkol</IRI>
+        <Literal>Busuk Tongkol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Tongkol_Diplodia</IRI>
+        <Literal>Busuk Tongkol Diplodia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Tongkol_Gibberella</IRI>
+        <Literal>Busuk Tongkol Gibberella</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Busuk_Tongol_Fusarium</IRI>
+        <Literal>Busuk Tongkol Fusarium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cendawan_Diplodia_Maydis</IRI>
+        <Literal>Cendawan Diplodia Maydis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cendawan_Fusarium_Moniliforme</IRI>
+        <Literal>Cendawan Fusarium Moniliforme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cendawan_Gibberella_Roseum</IRI>
+        <Literal>Cendawan Gibberella Roseum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cendawan_Puccinia_Polysora</IRI>
+        <Literal>Cendawan Puccinia Polysora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dactylispa_Balyi_Gets</IRI>
+        <Literal>Dactylispa Balyi Gets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Erwinia_Chrysanthemy</IRI>
+        <Literal>Erwinia Chrysanthemy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hawar_Daun</IRI>
+        <Literal>Hawar Daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helicoverpa_armigera_Hubner</IRI>
+        <Literal>Helicoverpa Armigera Hubner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helminthosporium_Turcicum</IRI>
+        <Literal>Helminthosporium Turcicum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Karat_Daun</IRI>
+        <Literal>Karat Daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kumbang_Landak</IRI>
+        <Literal>Kumbang Landak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kumbang_bubuk</IRI>
+        <Literal>Kumbang Bubuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kutudaun</IRI>
+        <Literal>Kutu Daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Layu_Stewart</IRI>
+        <Literal>Layu Stewart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Locusta_Migratoria</IRI>
+        <Literal>Locusta Migratoria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Maize_Dwarf_Mosaic</IRI>
+        <Literal>Maize Dwarf Mosaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ostrinia_Furnacalis</IRI>
+        <Literal>Ostrinia Furnacalis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pantoea_Stewartii_Subsp._Stewartii</IRI>
+        <Literal>Pantoea Stewartii Subsp. Stewartii</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Penggerek_Tongkol</IRI>
+        <Literal>Pengerek Tongkol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Peronosclerospora_Maydis</IRI>
+        <Literal>Peronosclerospora Maydis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Phyllophaga_Helleri</IRI>
+        <Literal>Phyllophaga Helleri</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rhizoctonia_Solani</IRI>
+        <Literal>Rhizoctonia Solani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rhopalosiphum_Maidis_Fitch</IRI>
+        <Literal>Rhopalosiphum Maidis Fitch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sitophilus_Zeamais_Motsch</IRI>
+        <Literal>Sitophilus Zeamais Motsch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spodoptera_Sp</IRI>
+        <Literal>Spodoptera Sp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#Tersisanya_tulang_daun_dan_batang_jagung</IRI>
+        <Literal>Tersisanya tulang daun dan batang jagung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tersisanya_tulang_daun_dan_batang_jagung</IRI>
+        <Literal>tersisanya tulang daun dan batang jagung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ulat_Grayak</IRI>
+        <Literal>Ulat Grayak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ulat_Tanah</IRI>
+        <Literal>Ulat Tanah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ulat_uret</IRI>
+        <Literal>Ulat Uret</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virus_Mosaik</IRI>
+        <Literal>Virus Mosaik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#abamektin</IRI>
+        <Literal>Abamectin bekerja dengan memengaruhi sistem saraf serangga, mengganggu fungsi normal dan menyebabkan paralisis. Digunakan untuk mengendalikan berbagai serangga, kutu, tungau, dan nematoda pada tanaman pertanian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#agrotis_ipsilon</IRI>
+        <Literal>Agrotis Ipsilon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#alat_perangkap</IRI>
+        <Literal>Penggunaan alat perangkap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alat_perangkap</IRI>
+        <Literal>alat perangkap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#aplikasi_insektisida</IRI>
+        <Literal>Aplikasi insektisida untuk mengendalikan vektornya. Bahan aktif yang digunakan disesuaikan dengan jenis serangga vektor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aplikasi_insektisida</IRI>
+        <Literal>aplikasi insektisida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#aroma_busuk</IRI>
+        <Literal>Adanya aroma busuk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aroma_busuk</IRI>
+        <Literal>aroma busuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bacillius_papillae</IRI>
+        <Literal>bacillius papillae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bacillus_thuringiensis</IRI>
+        <Literal>adalah bakteri yang ditemukan secara alami di tanah. Bakteri ini menghasilkan kristal protein yang disebut delta-endotoksin, yang memiliki sifat insektisidal, artinya dapat membunuh serangga tertentu. Bt telah menjadi bahan aktif yang umum digunakan dalam pestisida biologis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bacillus_thuringiensis</IRI>
+        <Literal>bacillus thuringiensis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bagian_tanaman_mudah_terlepas</IRI>
+        <Literal>Bagian tanaman mudah terlepas Penularan penyakit ini dibantu oleh serangga vector.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bagian_tanaman_mudah_terlepas</IRI>
+        <Literal>bagian tanaman mudah terlepas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bakteri</IRI>
+        <Literal>Bakteri adalah organisme bersel satu dengan struktur sel yang lebih sederhana daripada sel eukariotik. Mereka memiliki membran sel, dinding sel, dan kadang-kadang flagela.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#batang_bawah_tongkol_dipotong</IRI>
+        <Literal>Jika musim hujan bagian batang bawah tongkol dipotong agar tongkol tidak mengarah ke atas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#batang_bawah_tongkol_dipotong</IRI>
+        <Literal>batang bawah tongkol dipotong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#beauveria_bassiana</IRI>
+        <Literal>Beauveria adalah kelompok cendawan entomopatogen, yang berarti bahwa mereka merupakan jenis cendawan yang dapat menyerang dan menyebabkan penyakit pada serangga. Salah satu spesies paling terkenal dari genus Beauveria adalah Beauveria bassiana.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#beauveria_bassiana</IRI>
+        <Literal>beauveria bassiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bekas_gerekan_pada_daun</IRI>
+        <Literal>Bekas gerekan pada daun sejajar dengan tulang daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bekas_gerekan_pada_daun</IRI>
+        <Literal>bekas gerekan pada daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bekas_gigitan</IRI>
+        <Literal>Adanya bekas gigitan pada bagian daun kuncup sehingga berlubang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bekas_gigitan</IRI>
+        <Literal>bekas gigitan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bekas_gigitan_gorong_gorong</IRI>
+        <Literal>Meninggalkan bekas gigitan yang memanjang membentuk gorong-gorong.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bekas_gigitan_gorong_gorong</IRI>
+        <Literal>bekas gigitan gorong gorong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#belang_mosaic</IRI>
+        <Literal>Pada daun muda tampak belang dengan mosaic terang dan hijau gelap yang tampak tak beraturan Kemudian berkembang menjadi garis kecil klorotik sejajjar dengan tulang daun serta tampak seperti pulau pulau hijau gelap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#belang_mosaic</IRI>
+        <Literal>belang mosaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#benomil</IRI>
+        <Literal>Benomil adalah fungisida yang digunakan untuk melawan berbagai jenis penyakit tanaman, termasuk penyakit yang disebabkan oleh jamur. Ini termasuk dalam kelas kimia benzimidazole. Benomil bekerja dengan menghambat pertumbuhan dan perkembangan jamur penyebab penyakit, sehingga melindungi tanaman dari infeksi atau penyebaran penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bercak_berwarna_kemerahan</IRI>
+        <Literal>Ada bercak berwarna kemerahan kemudian berubah menjadi abu – abu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bercak_berwarna_kemerahan</IRI>
+        <Literal>bercak berwarna kemerahan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bercak_garis_linier</IRI>
+        <Literal>Bercak garis yang linier teratur atau tepinya bergelombang sejajar dengan tulang daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bercak_garis_linier</IRI>
+        <Literal>bercak garis linier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bercak_hijau_kekuningan</IRI>
+        <Literal>serta bercak hijau kekuningan pada permukaan daun yang tidak beraturan dan bergelombang di sepanjang tulang daun dan diseluruh permukaan daun disertai dengan matinya jaringan (nekrosis).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bercak_hijau_kekuningan</IRI>
+        <Literal>bercak hijau kekuningan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bercak_kecil</IRI>
+        <Literal>Bercak-bercak kecil yang terdapat di permukaan daun dan bagian atas daun berbentuk oval berwarna coklat hingga kemerahan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bercak_kecil</IRI>
+        <Literal>bercak kecil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bercak_meluas</IRI>
+        <Literal>Bercak meluas dan diikuti sclerotium yang berwarna putih dan bentuknya tidak beraturan. Klerotium lama – kelamaan berubah warna menjadi coklat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bercak_meluas</IRI>
+        <Literal>bercak meluas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bernih_bersertifikat</IRI>
+        <Literal>Menggunakan benih bersertifikat dan sehat serta tahan terhadap penyakit layu stewart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bernih_bersertifikat</IRI>
+        <Literal>benih bersertifikat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#biji_jagung_berubah_menjadi_coklat</IRI>
+        <Literal>Biji jagung berubah warna menjadi coklat, bentuknya kisut, dan membusuk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#biji_jagung_berubah_menjadi_coklat</IRI>
+        <Literal>biji jagung berubah menjadi coklat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#biji_tongkol</IRI>
+        <Literal>Pada permukaan biji tongkol yang berwarna merah jambu sampai coklat. Terkadang pada permukaan biji ada pertumbuhan cendawan yang seperti kapas yang berwarna merah jambu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#biji_tongkol</IRI>
+        <Literal>biji tongkol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#biji_tongkol_berwarna_merah</IRI>
+        <Literal>Pada permukaan biji tongkol yang berwarna merah jambu sampai coklat. Terkadang pada permukaan biji ada pertumbuhan cendawan yang seperti kapas yang berwarna merah jambu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#biji_tongkol_berwarna_merah</IRI>
+        <Literal>biji tongkol berwarna merah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#biologi</IRI>
+        <Literal>Pengendalian biologi melibatkan penggunaan musuh alami hama atau penyakit, seperti predator, parasitoid, atau mikroorganisme, untuk mengendalikan populasi organisme berbahaya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#buah_jagung_membusuk</IRI>
+        <Literal>Buah jagung membusuk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#buah_jagung_membusuk</IRI>
+        <Literal>buah jagung membusuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#bunga_betina</IRI>
+        <Literal>Rambut (bunga betina) buah jagung terpotong.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bunga_betina</IRI>
+        <Literal>bunga betina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#clothianidin</IRI>
+        <Literal>Clothianidin juga merupakan insektisida neonicotinoid dan memiliki mode kerja yang mirip dengan thiametoxam. Seperti halnya thiametoxam, clothianidin juga digunakan untuk mengendalikan berbagai jenis hama pada tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#dataselling</IRI>
+        <Literal>dataselling dalam konteks pertanian dapat membantu petani, peneliti, dan perusahaan pertanian untuk membuat keputusan yang lebih baik dan meningkatkan efisiensi dalam kegiatan pertanian mereka.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#daun_mengering</IRI>
+        <Literal>daun mengering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#daun_mengering</IRI>
+        <Literal>daun mengering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#daun_mimba</IRI>
+        <Literal>Daun mimba mengandung berbagai senyawa aktif seperti azadirachtin, nimbin, dan nimbidin. Azadirachtin terkenal karena aktivitasnya sebagai insektisida, tetapi juga memiliki sifat antijamur dan antibakteri. Daun mimba telah digunakan secara tradisional di beberapa wilayah sebagai bahan alami untuk mengendalikan hama dan penyakit tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#daun_mimba</IRI>
+        <Literal>daun mimba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#daun_pepaya</IRI>
+        <Literal>Daun pepaya mengandung enzim yang disebut papain. Papain telah ditemukan memiliki sifat antimikroba dan antiparasit, dan ini dapat berkontribusi pada efek insektisidal. Beberapa jenis daun pepaya mengandung alkaloid tertentu, yang dapat memiliki efek toksik pada serangga. Senyawa ini dapat bekerja sebagai agen insektisidal. Ekstrak daun pepaya telah menunjukkan aktivitas antifeedant, yang berarti dapat mengurangi nafsu makan serangga. Ini dapat membantu melindungi tanaman dari kerusakan akibat serangan serangga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#daun_pepaya</IRI>
+        <Literal>daun pepaya</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#daun_tua</IRI>
+        <Literal>Pada daun tua tampak berwarna kekuningan (Klorosis) serta tanaman menjadi kerdil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#daun_tua</IRI>
+        <Literal>daun tua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#daung_menggulung</IRI>
+        <Literal>Daun menggulung untuk tingkat serangan yang tinggi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#daung_menggulung</IRI>
+        <Literal>daun menggulung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#deltametrin</IRI>
+        <Literal>Deltamethrin adalah insektisida yang termasuk dalam kelompok piretroid, yang merupakan kelompok senyawa kimia yang sering digunakan dalam pestisida untuk mengendalikan serangga. Deltamethrin merupakan turunan sintetis dari piretroid alami yang diambil dari bunga jenis chrysanthemum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#deltametrin</IRI>
+        <Literal>deltametrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#diklorofos</IRI>
+        <Literal>Diklorofos juga bekerja dengan cara menghambat enzim asetilkolinesterase. Telah digunakan secara luas sebagai insektisida organofosfat dalam pertanian untuk mengendalikan berbagai hama tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#dimehipo</IRI>
+        <Literal>Dimehipo bekerja dengan menghambat aktivitas enzim asetilkolinesterase pada sistem saraf serangga. Ini menyebabkan penumpukan asetilkolin, suatu neurotransmitter, yang mengakibatkan gangguan pada fungsi saraf dan akhirnya kematian serangga. Dimehipo digunakan dalam pertanian untuk mengendalikan berbagai serangga hama pada tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ditemukan_ulat_pengerek</IRI>
+        <Literal>Ditemukan ulat pengerek pada bagian tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ditemukan_ulat_pengerek</IRI>
+        <Literal>ditemukan ulat pengerek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ekstrak_bawang_merah</IRI>
+        <Literal>Bawang merah mengandung senyawa-senyawa fitokimia seperti flavonoid, senyawa sulfur, dan quercetin. Beberapa penelitian menunjukkan bahwa ekstrak bawang merah dapat memiliki aktivitas antimikroba, termasuk efek antijamur terhadap beberapa spesies jamur.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ekstrak_bawang_merah</IRI>
+        <Literal>ekstrak bawang merah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#elisa</IRI>
+        <Literal>Analisis Kesehatan benih dengan metode ELISA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#emamektin_benzoat</IRI>
+        <Literal>Emamektin benzoate termasuk dalam kelas avermektin, yang merupakan kelompok insektisida yang efektif terhadap serangga dan parasit pada hewan. Emamektin bekerja dengan mengganggu sistem saraf serangga, menyebabkan kelumpuhan dan kematian. Ini bekerja khususnya pada larva serangga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#emamektin_benzoat</IRI>
+        <Literal>emamektin benzoat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#embun_jelaga</IRI>
+        <Literal>Adanya embun jelaga yang berbentuk seperti tepung berwarna hitam yang dapat menghalangi fotosintesis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#embun_jelaga</IRI>
+        <Literal>embun jelaga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#eradiksi_tanaman</IRI>
+        <Literal>Pemusnahan seluruh bagian tanaman sampai keakarakarnya (Eradikasi tanaman) pada tanaman terinfeksi bercak daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eradiksi_tanaman</IRI>
+        <Literal>eradiksi tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#eradiksi_tanaman_karat_daun</IRI>
+        <Literal>Pemusnahan seluruh bagian tanaman sampai ke aka-akarnya (Eradikasi tanaman) pada  tanaman terinfeksi karat daun maupun gulma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eradiksi_tanaman_karat_daun</IRI>
+        <Literal>eradiksi tanaman karat daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ethaboxam</IRI>
+        <Literal>Ethaboxam termasuk dalam kelompok kimia benzofuran. Digunakan untuk melawan berbagai penyakit tanaman yang disebabkan oleh oomycetes dan beberapa jenis fungi lainnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#fungisida_alami</IRI>
+        <Literal>Penyemprotan fungisida dari ekstrak bawnag merah atau daun mimba.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fungisida_alami</IRI>
+        <Literal>fungisida alami</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#fungisida_berbahan_aktif</IRI>
+        <Literal>Penggunaan fungisida menggunakan bahan aktif mancozeb atau karbendazim. Contohnya seperti LAFATAR 85 WP, DITHANE, NARCIM, BENDAS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fungisida_berbahan_aktif</IRI>
+        <Literal>fungisida berbahan aktif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#fungisida_berbahan_aktif_busuk_batang</IRI>
+        <Literal>Menggunakan fungisida yang berbahan aktif tembaga hidroksida yang juga bersifat sebagai bakterisida. Contohnya Copcide 77WP.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fungisida_berbahan_aktif_busuk_batang</IRI>
+        <Literal>fungisida berbahan aktif busuk batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#garis_hijau_pucat</IRI>
+        <Literal>adanya garis hijau pucat kekuningan yang memanjang pada permukaan daun dan gejala hawar berupa bercak memanjang di sepanjang pertulangan daun dan pinggirnya berupa klorosis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#garis_hijau_pucat</IRI>
+        <Literal>garis hijau pucat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#garis_memanjang</IRI>
+        <Literal>Garis kuning memanjang dipermukaan daun sejajar dengan tulang daun (Klorosis), utamanya pada daun yang masih muda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#garis_memanjang</IRI>
+        <Literal>garis memanjang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#gejala</IRI>
+        <Literal>gejala adalah tanda atau manifestasi yang dapat diamati atau dirasakan sebagai respons terhadap suatu kondisi atau penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#gejala_akhir</IRI>
+        <Literal>Gejala akhir yang ditunjukkan adalah daun jagung berwarna kecokelatan dan biasanya serangan penyakit ini dimulai dari daun yang paling bawah dan terus meningkat ke atas. pada kasus yang berat, tanaman jagung yang terinfeksi penyakit ini akan lebih cepat mati sehingga proses pembuahan tidak terjadi secara maksimal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gejala_akhir</IRI>
+        <Literal>gejala akhir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#gigitan_di_pinggir_daun</IRI>
+        <Literal>Adanya jejak gigitan di pinggir daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gigitan_di_pinggir_daun</IRI>
+        <Literal>gigitan di pinggir daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#hama</IRI>
+        <Literal>Hama adalah organisme yang merugikan atau merugikan yang dapat menyebabkan kerusakan pada tanaman, hewan ternak, atau bahan pangan. Hama dapat mencakup berbagai jenis makhluk hidup, seperti serangga, tungau, nematoda, jamur, dan hewan pengerat. Mereka dapat menyebabkan kerusakan langsung dengan mengonsumsi tanaman atau bahan pangan, atau melalui penyebaran penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_aktif_penggerek</IRI>
+        <Literal>Pemberian  insektisida yang berbahan aktif dimehipo, monokrotofos, karbofuran.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_aktif_penggerek</IRI>
+        <Literal>insektisida aktif pengerek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_berbahan_aktif</IRI>
+        <Literal>Menggunakan insektisida yang berbahan aktif sipermetrin dan imidacloprid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_berbahan_aktif</IRI>
+        <Literal>insektisida berbahan aktif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_berbahan_aktif_bercak_daun</IRI>
+        <Literal>Penggunaan fungisida berbahan aktif tembaga seperti Ethaboxam + Mefenoxam.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_berbahan_aktif_bercak_daun</IRI>
+        <Literal>insektisida berbahan aktif bulai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_kimiawi</IRI>
+        <Literal>Penggunaan bahan kimiawi dengan memberikan penyemprotan insektisida berbahan aktif monokrotofos, triazofos, diklhrofos, dan karbofuran.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_kimiawi</IRI>
+        <Literal>insektisida kimiawi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_nabati</IRI>
+        <Literal>Penggunaan insektisida nabati yang dihasilkan dari ekstrak tepung daun bintaro.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_nabati</IRI>
+        <Literal>insektisida nabati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#insektisida_sistemik</IRI>
+        <Literal>Penyemprotan insektisida sistemik. Insektisida sistemik adalah jenis insektisida yang dapat diserap oleh tanaman dan kemudian didistribusikan ke seluruh jaringan tanaman, termasuk daun, batang, dan akar. Ini memungkinkan perlindungan terhadap serangga hama yang mengonsumsi bagian tanaman yang diobati dengan insektisida sistemik.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#insektisida_sistemik</IRI>
+        <Literal>insektisida sistemik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#irigasi</IRI>
+        <Literal>Hindari irigasi pada saat cuaca terlalu panas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#jamur</IRI>
+        <Literal>Jamur dapat berupa sel tunggal atau memiliki struktur bersel banyak. Mereka memiliki inti sel dan dinding sel yang terbuat dari kitin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#jarak_tanam</IRI>
+        <Literal>Penggunaan jarak tanam yang tepat agar tidak menciptakan lingkungan dengan kelembaban tinggi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jarak_tanam</IRI>
+        <Literal>jarak tanam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kamur_kapas</IRI>
+        <Literal>Adanya jamur yang berbentuk seperti kapas berwana putih dan piknidia berwarna hitam yang ada pada kelobot jagung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kamur_kapas</IRI>
+        <Literal>jamur kapas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#karbendazim</IRI>
+        <Literal>Kerbendazim termasuk dalam kelompok kimia benzimidazole. Kerbendazim digunakan untuk mengendalikan sejumlah penyakit tanaman, termasuk yang disebabkan oleh jamur seperti Botrytis, Sclerotinia, dan penyakit lainnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#karbofuran</IRI>
+        <Literal>Karbofuran adalah insektisida dan nematisida yang bekerja dengan menghambat enzim asetilkolinesterase. Digunakan untuk mengendalikan serangga dan nematoda pada tanaman pertanian dan hortikultura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kelobot_berubah_warna_biru</IRI>
+        <Literal>Jagung yang terinfesksi permukaan kelobotnya akan berubah warna biru kehitaman hingga permukaan tongkol.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kelobot_berubah_warna_biru</IRI>
+        <Literal>kelobot berubah warna biru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kelobot_berwarna_coklat</IRI>
+        <Literal>Jagung yang terinfeksi kelobotnya akan berwana coklat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kelobot_berwarna_coklat</IRI>
+        <Literal>kelobot berwarna coklat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kelobot_dan_tongkol_merekat_erat</IRI>
+        <Literal>Antara kelobot dan tongkol akan salit merekat erat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kelobot_dan_tongkol_merekat_erat</IRI>
+        <Literal>kelobot dan tongkol melekat erat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kimiawi</IRI>
+        <Literal>engendalian kimia melibatkan penggunaan bahan kimia, seperti pestisida, untuk membunuh atau mengendalikan populasi hama atau penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#klorfenapir</IRI>
+        <Literal>Klorfenapir bekerja dengan menghambat transport elektron dalam mitokondria, mempengaruhi produksi energi dalam sel. igunakan sebagai insektisida dan akarisida untuk mengendalikan berbagai hama pada tanaman dan tanaman hias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#klorosis</IRI>
+        <Literal>Daun berubah warna menjadi kuning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kotoran_ulat</IRI>
+        <Literal>Adanya kotoran ulat berwarna hijau muda hingga kecoklatan berbentuk serbuk kasar seperti serbuk gergaji pada sekitar bagian pucuk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kotoran_ulat</IRI>
+        <Literal>kotoran ulat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#kultural</IRI>
+        <Literal>Pengendalian kultural melibatkan penggunaan praktik-praktik budidaya atau manajemen tanaman yang dapat mengurangi potensi kerusakan yang disebabkan oleh hama atau penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lalat_bibit</IRI>
+        <Literal>Lalat Bibit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lambdasilhalotrin</IRI>
+        <Literal>Lambdasilhalotrin termasuk dalam kelas piretroid. Sebagai piretroid, ia bekerja dengan merangsang saluran natrium dalam sel saraf serangga. Digunakan untuk mengendalikan serangga pengisap cair, seperti kutu dan wereng, pada tanaman pertanian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lapisan_tepung</IRI>
+        <Literal>Adanya lapisan tepung berwarna putih yang terletak dibagian bawah permukaan daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lapisan_tepung</IRI>
+        <Literal>lapisan tepung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lesio</IRI>
+        <Literal>Terdapat luka (Lesio) kecil dan berbentuk melingkar dibagian permukaan daun, kemudian Ketika lesion masak fungi keluar dari permukaan daun sehingga luka (Lesio) menjadi lebih memanjang. Kamudian pada bagian yang terinfeksi akan berwarna kuning - kecoklataan – kemerahan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lingkungan_tumbuh</IRI>
+        <Literal>Kondisikan lingkungan tumbuh yang dapat mengurangi kelembaban tinggi, seperti atur jarak tanam yang tidak terlalu rapat, siapkan saluran drainase atau pembungan air sehingga saat hujan air tidak lama menggenang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lingkungan_tumbuh</IRI>
+        <Literal>lingkungan tumbuh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lubang_gerekan</IRI>
+        <Literal>Adanya lubang gerekan pada ujung tongkol jagung, serta lubang geretan pada tongkol dan lubang lubang pada biji jagung. Hingga biji jagung termakan habis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lubang_gerekan</IRI>
+        <Literal>lubang gerekan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lubang_gorokan</IRI>
+        <Literal>Adanya lubang gorokan pada batang dan bunga jantan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lubang_gorokan</IRI>
+        <Literal>lubang gorokan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lubang_kecil</IRI>
+        <Literal>Terdapat lubang kecil pada bagian daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lubang_kecil</IRI>
+        <Literal>lubang kecil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lubang_melintang</IRI>
+        <Literal>Adanya lubang melintang pada daun saat fase vegetative.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lubang_melintang</IRI>
+        <Literal>lubang melintang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#lufenuron</IRI>
+        <Literal>Lufenuron termasuk dalam kelas insektisida yang disebut inhibitor pertumbuhan insekta (IGR), yang memengaruhi perkembangan serangga. Lufenuron menghambat sintesis kitin, sebuah komponen utama dalam eksoskeleton serangga, sehingga mengganggu perkembangan serangga dari tahap larva ke tahap dewasa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#luka_water_soaking</IRI>
+        <Literal>adanya luka water soaking yang panjang terdapat di daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#luka_water_soaking</IRI>
+        <Literal>luka water soaking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#mancozeb</IRI>
+        <Literal>Mancozeb termasuk dalam kelompok kimia etilen bisdithiocarbamate (EBDC). Mancozeb digunakan untuk melawan berbagai penyakit tanaman yang disebabkan oleh jamur, seperti penyakit daun, karat, dan mildew pada tanaman buah, sayuran, dan tanaman hortikultura lainnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#mefenoxam</IRI>
+        <Literal>efenoxam termasuk dalam kelompok kimia fenil amida. Digunakan untuk mengendalikan berbagai penyakit tanaman yang disebabkan oleh oomycetes, termasuk Phytophthora spp. dan Pythium spp. Ini termasuk penyakit seperti busuk akar dan batang serta busuk pangkal batang pada tanaman.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#memusnahkan_bagian_tanaman</IRI>
+        <Literal>Memusnahkan bagian tanaman yang terserang dan bagian tanaman yang diinveastasi telur dengan cara membakarnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#memusnahkan_bagian_tanaman</IRI>
+        <Literal>memusnahkan bagian tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#memusnahkan_tanaman</IRI>
+        <Literal>Memusnahkan tanaman jagung yang terinfeksi penyakit hawar daun dengan cara membakar bagian tananaman secara keseluruhan. Agar tidak terjadi penularan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#memusnahkan_tanaman</IRI>
+        <Literal>memusnahkan tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#memusnahkan_tanaman_inang</IRI>
+        <Literal>Memusnahkan tanaman inang dan tanaman yang terinfeksi dengan cara membakarnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#memusnahkan_tanaman_inang</IRI>
+        <Literal>memusnahkan tanaman inang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#memusnahkan_tanaman_jagung</IRI>
+        <Literal>Memusnahkan tanaman jagung dan inang lainnya yang terinfeksi MDMV.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#memusnahkan_tanaman_jagung</IRI>
+        <Literal>memusnahkan tanaman jagung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#mengatur_jarak_tanam</IRI>
+        <Literal>Mengatur jarak tanam agar mengurangi tingkat kelembaban yang tinggi. Sehingga jamur/cendawan tidak dapat tumbuh dan berkembang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mengatur_jarak_tanam</IRI>
+        <Literal>mengatur jarak tanam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#menginfeksi_sejak_dini</IRI>
+        <Literal>Menginfeksi sejak buah jagung masih dini.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#menginfeksi_sejak_dini</IRI>
+        <Literal>menginfeksi sejak dini</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#mengumpulkan_dan_membinasakan</IRI>
+        <Literal>Mengumpulkan dan membinasakan baik telur, larva, dan ulat grayak yang ditemukan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mengumpulkan_dan_membinasakan</IRI>
+        <Literal>mengumpulkan dan membinasakan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#meninggalkan_jejak_kotoran</IRI>
+        <Literal>Meninggalkan jejak kotoran yang berbentuk abstrak berwarna hitam, dan kotoran nya berasa manis sehingga dapat mengundang semut dan berpotensi menimbulkan serangan sekunder yaitu embun jelaga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meninggalkan_jejak_kotoran</IRI>
+        <Literal>meninggalkan jejak kotoran</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#menyerang_pada_bagian_daun</IRI>
+        <Literal>Menyerang pada bagian daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#menyerang_pada_bagian_daun</IRI>
+        <Literal>menyerang bagian daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#metarhizium</IRI>
+        <Literal>adalah jenis jamur entomopatogen yang sangat spesial, artinya jamur ini secara alami dapat menyebabkan penyakit pada serangga (entomopatogen berarti &quot;pembunuh serangga&quot;). Ini adalah salah satu agen pengendalian biologis yang digunakan dalam pertanian dan hortikultura untuk mengendalikan hama serangga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metarhizium</IRI>
+        <Literal>metarhizium anisopliae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#midakloprid</IRI>
+        <Literal>Ini memengaruhi sistem saraf serangga dengan berinteraksi dengan reseptor nikotin asetilkolin. Digunakan sebagai insektisida untuk melawan kutu, belalang, dan berbagai serangga lain pada tanaman pertanian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#midakloprid</IRI>
+        <Literal>imidacloprid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#monokrofos</IRI>
+        <Literal>Monokrotofos adalah insektisida organofosfat. Monokrotofos telah digunakan untuk mengendalikan serangga hama di pertanian. Namun, perlu dicatat bahwa penggunaannya dapat memiliki dampak negatif pada kesehatan manusia dan lingkungan, dan di beberapa tempat, penggunaan monokrotofos telah dibatasi atau dilarang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#monokrofos</IRI>
+        <Literal>monokrotofos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#monokrotofos</IRI>
+        <Literal>monokrotofos bekerja dengan cara menghambat aktivitas enzim asetilkolinesterase pada sistem saraf serangga. Monokrotofos telah digunakan untuk mengendalikan serangga hama di pertanian. Namun, perlu dicatat bahwa penggunaannya dapat memiliki dampak negatif pada kesehatan manusia dan lingkungan, dan di beberapa tempat, penggunaan monokrotofos telah dibatasi atau dilarang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#musuh_alami</IRI>
+        <Literal>Penggunaan musuh alami seperti burung pemangsa belalang, jenis nematoda meliputi patogen (Beauveria bassiana) yang dapat menyerang nimfa, dan Metarhizium yang dapat menyerang belalang deasa dan cendawan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#musuh_alami</IRI>
+        <Literal>musuh alami</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#musuh_alami_kutu_daun</IRI>
+        <Literal>Penggunaan musuh alami seperti predator Harmonia actomaculata, penggunaan insektisida sistemik karbofuran pada pucuk atau dengan penyemprotan insektisida berbahan aktif abamektin, sipermetrin, midakloprid, lamda sihalotrin, klorfenapir atau asetamiprid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#musuh_alami_kutu_daun</IRI>
+        <Literal>musuh alami kutu daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#musuh_alami_pengerek</IRI>
+        <Literal>Penggunaan musuh alami seperti anisopliae, Beauveria bassiana, dan Bacillus thuringiensis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#musuh_alami_pengerek</IRI>
+        <Literal>musuh alami pengerek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#musuh_alami_pengerek_batang</IRI>
+        <Literal>Penggunaan musuh alami seperti parasitoid trichogramma spp yang dapat memakan telur dari ulat penggerek ini, cendawan Beauveria bassiana dan metarhizium yang dapat mengendalikan larva ulat penggerek.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#musuh_alami_pengerek_batang</IRI>
+        <Literal>musuh alami pengerek batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#musuh_alami_ulat_uret</IRI>
+        <Literal>Penggunaan musuh alami bacillius papillae.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#musuh_alami_ulat_uret</IRI>
+        <Literal>musuh alami ulat uret</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pangkal_batang</IRI>
+        <Literal>Pada pangkal batang yang terserang terlihat berwarna merah jambu, merah kecoklatan atau coklat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pangkal_batang</IRI>
+        <Literal>pangkal batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#patogen</IRI>
+        <Literal>Patogen adalah organisme atau agen biologis yang dapat menyebabkan penyakit atau gangguan dalam fungsi normal dari organisme yang terinfeksi. Patogen dapat berupa bakteri, virus, jamur, protozoa, atau organisme lain yang dapat menyebabkan penyakit pada tanaman, hewan, atau manusia. Mereka bekerja dengan cara menyerang sel atau jaringan inang dan mengubah proses biologis normal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pemasangan_lampu</IRI>
+        <Literal>Pemasangan lampu dan perangkap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pemasangan_lampu</IRI>
+        <Literal>pemasangan lampu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pemberian_insektisida_nabati</IRI>
+        <Literal>Pemberian insektisida nabati seperti daun sirsak. Daun sirsak mengandung senyawa acetogenins, yang memiliki aktivitas antiparasit dan dapat digunakan sebagai insektisida. Beberapa penelitian menunjukkan bahwa senyawa ini dapat memiliki efek toksik terhadap beberapa jenis serangga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pemberian_insektisida_nabati</IRI>
+        <Literal>daun sirsak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pemberian_pupuk_berimbang</IRI>
+        <Literal>Pemberian pupuk berimbang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pemberian_pupuk_berimbang</IRI>
+        <Literal>pemberian pupuk berimbang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pemusnahan_tanaman</IRI>
+        <Literal>Pemusnahan tanaman dan hasil panen yang terinfeksi dengan cara membakar dll.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pemusnahan_tanaman</IRI>
+        <Literal>pemusnahan tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penanaman_pada_waktu_yang_tepat</IRI>
+        <Literal>penanaman pada waktu yang tepat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penanaman_serentak</IRI>
+        <Literal>Penanaman pada waktu serentak.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penanaman_serentak</IRI>
+        <Literal>penanaman serentak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penanaman_tumpang_sari</IRI>
+        <Literal>Penanaman secara tumpeng sari dengan tanaman yang bukan ianng dari bakteri P. stewartii subsp. Stewartia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penanaman_tumpang_sari</IRI>
+        <Literal>penanaman tumpang sari</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penangkapan_belalang</IRI>
+        <Literal>Penangkapan belalang secara langsung untuk mengurangi populasi serta dapat dijadikan pakan ternak.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penangkapan_belalang</IRI>
+        <Literal>penangkapan belalang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pengendalian</IRI>
+        <Literal>Pengendalian adalah upaya yang dilakukan untuk mengelola, mengurangi, atau mengatasi suatu kondisi atau masalah tertentu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pengendalian_hayati</IRI>
+        <Literal>Pengendalian hayati dengan memanfaatkan agensi hayati indigenous.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pengendalian_hayati</IRI>
+        <Literal>pengendalian hayati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penggerek_batang</IRI>
+        <Literal>Pengerek Batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penghalang_fisik</IRI>
+        <Literal>Menggunakan penghalang secara fisik pada bagian pangkal batang yang dapat berbahan dasar alumunium foil, karton dll sehingga dapat mencegah ulat naik pada batang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penghalang_fisik</IRI>
+        <Literal>penghalang fisik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pengolahan_tanah</IRI>
+        <Literal>Pengolahan tanah dengan baik.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pengolahan_tanah</IRI>
+        <Literal>pengolahan tanah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penutup_tanah</IRI>
+        <Literal>Penanaman penutup tanah sehingga tidak ada lubang di dekat tanaman dan tidak adanya tempat untuk meletakkan telur. Ini bertujuan ada menekan populasi belalang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penutup_tanah</IRI>
+        <Literal>penutup tanah</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penyakit</IRI>
+        <Literal>adalah suatu kondisi yang menyebabkan gangguan dalam fungsi normal tubuh atau organisme, yang mengakibatkan gejala atau tanda-tanda tertentu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penyebab</IRI>
+        <Literal>Penyebab adalah faktor atau rangkaian faktor yang menyebabkan atau memberikan kontribusi pada terjadinya suatu peristiwa atau kondisi tertentu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penyemprotan</IRI>
+        <Literal>Pemberian atau penyemprotan insektisida berbahan aktif karbofuran. Saat tanaman berumur 7 hari.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penyemprotan_fungisida</IRI>
+        <Literal>Penyemprotan fungisida menggunakan bahan aktif benomil, dosis/konsentrasi sesuai petunjuk di kemasan. Contohnya seperti Benlox 50 WP, Masalgin, Benotop, Elario, Toyung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penyemprotan_fungisida</IRI>
+        <Literal>penyemprotan fungisida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#penyemprotan_insektisida</IRI>
+        <Literal>Penyemprotan insektisida berbahan aktif Emamektin benzoat dan Iufenuron.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#penyemprotan_insektisida</IRI>
+        <Literal>penyemprotan insektisida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#peredaman_benih</IRI>
+        <Literal>Perendaman benih menggunakan pestisida berbahan aktif imidakloprid, thiamethoxam, dan clothianidin sebelum ditanam.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#peredaman_benih</IRI>
+        <Literal>peredaman benih</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pergiliran_tanaman</IRI>
+        <Literal>Pergiliran tanaman yang baik agar ketiga jenis cendawan tersebut tidak menjadikan tanaman selanjutnya sebagai tanaman inang. Sehingga penanaman berikutnya dapat membudidayakan tanaman selain tanaman yang termasuk padi-padian. Seperti kacang – kacangan , umbi – umbian dan lainnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pergiliran_tanaman</IRI>
+        <Literal>pergiliran tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pergiliran_tanaman_berbeda</IRI>
+        <Literal>Pergiliran tanaman yang berbeda pada lahan yang sama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pergiliran_tanaman_berbeda</IRI>
+        <Literal>pergiliran tanaman berbeda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#perkembangbiakan_ulat</IRI>
+        <Literal>Adanya tanda tanda perkembangbiakan ulat yakni tersimpannya telur secara mengelompok berwarna putih pada bagian bawah permukaan daun, adanya, adanya larva yang baru menetas pada permukaan daun yang berwarna putih.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#perkembangbiakan_ulat</IRI>
+        <Literal>perkembangbiakan ulat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#perubahan_warna</IRI>
+        <Literal>Perubahan warna pada panjang batang dari hijau menjadi kecoklatan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#perubahan_warna</IRI>
+        <Literal>perubahan warna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pestisida_nabati</IRI>
+        <Literal>Penggunaan pestisida nabati seperti Lantana camara, Ageratum conyzoides, Chromolaena odorata, Akar Khaya senegelensis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pestisida_nabati</IRI>
+        <Literal>pestisida nabati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pgpr</IRI>
+        <Literal>PGPR merupakan singkatan dari &quot;Plant Growth-Promoting Rhizobacteria&quot; atau dalam Bahasa Indonesia disebut sebagai Rhizobakteri Pendorong Pertumbuhan Tanaman. Ini merujuk pada kelompok bakteri yang hidup di zona akar tanaman dan memberikan dampak positif pada pertumbuhan dan kesehatan tanaman. PGPR dapat merangsang produksi senyawa pertahanan tanaman, seperti fitoaleksin dan enzim peroksidase.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pgpr</IRI>
+        <Literal>pgpr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pupuk_n_dan_p</IRI>
+        <Literal>Penggunaan pupuk N dan P berimbang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pupuk_n_dan_p</IRI>
+        <Literal>pupuk n dan p</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pupuk_nitrogen</IRI>
+        <Literal>Kurangi penggunan pupuk nitrogen dan tingkatkan penggunaan pupuk P &amp; K agar ketahanan terhadap penyakit lebih kuat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pupuk_nitrogen</IRI>
+        <Literal>pupuk nitrogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#pustul</IRI>
+        <Literal>Timbul bisul (pustul atau sori). Bisul ini terbentuk dan tersebar pada kedua permukaan daun bagian atas dan bawah dengan warna coklat kemerahan kemudian berubah warna menjadi hitam kecoklatan setelah teliospora berkembang dan pada tingkat serangan yang berat, maka daun jagung akan menjadi kering (mati).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ras_o</IRI>
+        <Literal>Ras O bercak berwarna coklat kemerahan dan ukuran lebih kecil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ras_o</IRI>
+        <Literal>ras o</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ras_t</IRI>
+        <Literal>Ras T biasanya bercak berukuran lebih besar berbentuk kumparan, bercak berwarna hijau kuning atau klorotik selanjutnya menjadi coklat kemerahan. Ras T lebih berbahaya dari pada Ras O. Ras T menyebar keseluruh bagian tanaman dan permukaan biji terinfeksi tertutup miselium berwarna abu-abu sampai hitam sehingga bisa menurunkan hasil produksi secara signifikan, cendawan ini dalam bentuk miselium dan spora bisa bertahan hidup dalam sisa tanaman di lahan atau pada biji jagung di penyimpanan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ras_t</IRI>
+        <Literal>ras t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#rotas_penanaman</IRI>
+        <Literal>Rotasi penanaman selain tanaman inang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rotas_penanaman</IRI>
+        <Literal>rotasi penanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#rotasi_penanaman</IRI>
+        <Literal>Pergiliran tanaman untuk memutus rantai hama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rotasi_penanaman</IRI>
+        <Literal>pergiliran tanaman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#rotasi_sanitasi</IRI>
+        <Literal>Menjaga rotasi sanitasi dengan baik.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rotasi_sanitasi</IRI>
+        <Literal>rotasi sanitasi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#rusaknya_biji_jagung</IRI>
+        <Literal>Rusaknya biji jagung ditandai dengan adanya bekas gigitan sehingga biji berlubang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rusaknya_biji_jagung</IRI>
+        <Literal>rusaknya biji jagung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#sanitasi</IRI>
+        <Literal>Pengendalian sanitasi adalah upaya untuk mencegah atau mengurangi risiko kontaminasi atau penyebaran penyakit melalui penerapan prinsip-prinsip kebersihan dan higiene. Ini mencakup langkah-langkah untuk mengontrol atau menghilangkan sumber-sumber kontaminasi yang dapat menyebabkan penyebaran penyakit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#sanitasi_gulma</IRI>
+        <Literal>Sanitasi gulma inang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sanitasi_gulma</IRI>
+        <Literal>sanitasi gulma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#sebuk_tepung</IRI>
+        <Literal>Adanya serbuk tepung hasil dari geeretan biji oleh hama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sebuk_tepung</IRI>
+        <Literal>sebuk tepung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#serangan_berat</IRI>
+        <Literal>Serangan yang berat dapat menyebabkan daun mengering dan hanya tersisa tulang daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#serangan_berat</IRI>
+        <Literal>serangan berat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#serangga_vektor</IRI>
+        <Literal>Mengendalikan serangga vektor menggunakan insektisida dengan bahan aktif disesuaikan dengan jenis serangganya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#serangga_vektor</IRI>
+        <Literal>serangga vektor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#serbuk_gergaji</IRI>
+        <Literal>Adanya sisa seperti serbuk gergaji akibat dari pembuatan lubang dari batang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#serbuk_gergaji</IRI>
+        <Literal>serbuk gergaji</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#sipermetrin</IRI>
+        <Literal>ipermetrin adalah jenis insektisida piretroid, yang merupakan kelompok pestisida yang terinspirasi dari senyawa-senyawa alami yang ditemukan dalam bunga Chrysanthemum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#sistem_perairan</IRI>
+        <Literal>Mengatur sistem perairan yang  baik.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sistem_perairan</IRI>
+        <Literal>sistem perairan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_jagung_muda</IRI>
+        <Literal>Menyerang pada tanaman jagung muda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_jagung_muda</IRI>
+        <Literal>tanaman jagung muda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_kerdil</IRI>
+        <Literal>Tanaman kerdil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_kerdil</IRI>
+        <Literal>tanaman kerdil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_layu</IRI>
+        <Literal>Tanaman menjadi layu karna bagian akar telat dimakan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_layu</IRI>
+        <Literal>tanaman layu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_mati</IRI>
+        <Literal>Serangan parah menyebabkan tanaman mati.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_mati</IRI>
+        <Literal>tanaman mati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_menjadi_kerdil</IRI>
+        <Literal>Pertumbuhan tanaman menjadi kerdil hingga kematian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_menjadi_kerdil</IRI>
+        <Literal>tanaman menjadi kerdil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tanaman_muda_mati</IRI>
+        <Literal>tanaman jagung muda mati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tanaman_muda_mati</IRI>
+        <Literal>tanaman muda mati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tasel_rusak</IRI>
+        <Literal>Adanya tumpukan tasel yang rusak dan mudah patah.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tasel_rusak</IRI>
+        <Literal>tasel rusak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#telur_benih</IRI>
+        <Literal>penyakit ini bersifat tular benih dengan cara bantuan serangga vector, luka, angin dan benih dll.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#telur_benih</IRI>
+        <Literal>telur benih</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#telur_hama</IRI>
+        <Literal>Adanya telur hama pada bagian rambut buah jagung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#telur_hama</IRI>
+        <Literal>telur hama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#telur_kumbang</IRI>
+        <Literal>Adanya telur kumbang yang mengumpul pada bagian daun.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#telur_kumbang</IRI>
+        <Literal>telur kumbang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#terjadi_infeksi</IRI>
+        <Literal>yang berbentuk bercak kecil, kebasahan yang berwarna hijau keabuabuan hingga warna kekuningan, berbentuk oval, dan kemudian bercak semakin memanjang berbentuk ellips dan berkembang menjadi nekrosis sehingga daun menjadi mengering.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terjadi_infeksi</IRI>
+        <Literal>terjadi infeksi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#terjadi_kelayuan</IRI>
+        <Literal>Terjadi Kelayuan shingga kering pada bagian daunnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terjadi_kelayuan</IRI>
+        <Literal>terjadi kelayuan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#terjadi_pada_bagian_pelepah_daun</IRI>
+        <Literal>Terjadi pada bagian pelepah daun dari yang paling dekat dengan tanah dan kamudian mneyebar ke daun diatasnya.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terjadi_pada_bagian_pelepah_daun</IRI>
+        <Literal>terjadi pada bagian pelepah daun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#terlalu_lama_mengering</IRI>
+        <Literal>Tidak membiarkan tongkol terlalu lama mengering di lapang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terlalu_lama_mengering</IRI>
+        <Literal>terlalu lama mengering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#terpotongnya_pangkal_batang</IRI>
+        <Literal>Terpotongnya pangkal batang hingga putus dan hanya menyisakan pangkal batang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terpotongnya_pangkal_batang</IRI>
+        <Literal>terpotongnya pangkal batang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#thiametoxam</IRI>
+        <Literal>Thiametoxam adalah insektisida neonicotinoid yang digunakan untuk mengendalikan berbagai hama pada tanaman. Ini bekerja dengan mengganggu sistem saraf serangga dan biasanya diaplikasikan pada biji benih atau di tanah untuk perlindungan sistemik terhadap hama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tidak_menggunakan_benih</IRI>
+        <Literal>Tidak menggunakan benih yang berasal dari tanaman yang terinfeksi virus ini.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tidak_menggunakan_benih</IRI>
+        <Literal>tidak menggunakan benih</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tongkol_jagung_kosong</IRI>
+        <Literal>Tongkol jagung  kosong.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tongkol_jagung_kosong</IRI>
+        <Literal>tongkol jagung kosong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tongkol_jagung_terbuka</IRI>
+        <Literal>Tongkol jagung terbuka.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tongkol_jagung_terbuka</IRI>
+        <Literal>tongkol jagung terbuka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#triazofos</IRI>
+        <Literal>riazofos adalah insektisida yang bekerja dengan menghambat enzim asetilkolinesterase dalam sistem saraf serangga. Digunakan untuk mengendalikan sejumlah hama dalam pertanian, termasuk ulat, kutu, dan kumbang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#trichogramma_sp</IRI>
+        <Literal>Trichogramma adalah genus dari kelompok parasitoid serangga mikroskopis yang termasuk dalam keluarga Trichogrammatidae. Spesies dalam genus Trichogramma umumnya adalah parasitoid telur serangga yang dianggap sebagai agen pengendalian biologis yang efektif dalam pertanian. Trichogramma sp. sering kali diperkenalkan ke pertanian sebagai agen pengendalian biologis untuk membantu mengendalikan populasi hama tanaman. Penggunaan ini umumnya lebih ramah lingkungan dibandingkan dengan penggunaan pestisida kimia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#trichogramma_sp</IRI>
+        <Literal>trichogramma sp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#tumpang_sari</IRI>
+        <Literal>Penggunaan sistem penanaman tumpang sari untuk menjadi perangkap belalang untuk penangkapan dan mempermudah memberikan insektisida. Serta dapat meningkatkan kesuburan tanah.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tumpang_sari</IRI>
+        <Literal>tumpang sari</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#ulat_pengerek</IRI>
+        <Literal>Adanya ulat penggerek yang ditemukan pada bagian tanaman jagung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ulat_pengerek</IRI>
+        <Literal>ulat pengerek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#varietas_unggul</IRI>
+        <Literal>Menggunakan benih yang sehat dan varietas yang tahan terhadap hama dan penyakit terkait.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#varietas_unggul</IRI>
+        <Literal>varietas unggul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#virus</IRI>
+        <Literal>Virus terdiri dari materi genetik (DNA atau RNA) yang terbungkus oleh selubung protein yang disebut kapsid. Mereka tidak memiliki struktur sel dan hanya dapat mereplikasi diri dalam sel inang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract"/>
+        <IRI>#warna_daun_hijau</IRI>
+        <Literal>Warna daun hijau pucat kekuningan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#warna_daun_hijau</IRI>
+        <Literal>warna daun hijau</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

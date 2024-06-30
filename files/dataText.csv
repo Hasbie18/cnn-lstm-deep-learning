@@ -1,0 +1,32 @@
+gejala 0,gejala 1,gejala 2,gejala 3,gejala 4,gejala 5,penyakit;;;;;;;;;;;;;;;;;;
+Lubang_di_Batang,Terdapat_Wereng_Coklat,Musim_Hujan,Tanaman_Kerdil,Bulir_Mengarat,Mudah_Dicabut,Kerdil_Rumput;;;;;;;;;;;;;;;;;;
+Perubahan_Bentuk,Bentuk_Belah_Ketupat,Serangan_Merata,Menular,Pangkal_Malai_Membusuk,Bulir_Mengarat,Blas_Padi;;;;;;;;;;;;;;;;;;V
+Terdapat_Wereng_Hijau,Spot,Hangus_Melingkar,Bekas_Tusukan_Menghitam,Daun_Menguning,Malai_Terpotong,Virus_Tungro;;;;;;;;;;;;;;;;;;v
+Pangkal_Malai_Membusuk,Telur_Pada_Tanaman,Pembengkakan_Jaringan_Akar_Kait,Benih_Tertular,Bentuk_Belah_Ketupat,Lebar,Blas_Padi;;;;;;;;;;;;;;;;;;v
+Imago,Pola_Makan_Acak,Bulir_Kosong,Nimfa,Tepi_Daun_Dihisap,Hangus,Walang_Sangit;;;;;;;;;;;;;;;;;;v
+Nimfa_Coklat,Malai_Tidak_Terbentuk,Terdapat_Wereng_Coklat,Tepi_Daun_Dihisap,Tanaman_Kerdil,Daun_Menguning,Kerdil_Rumput;;;;;;;;;;;;;;;;;;v
+Pertumbuhan_Terhambat,Serangan_Merata,Pucuk_Daun_Menguning,Tulang_Daun_Menguning,Bulir_Mengarat,Kotoran_di_Batang,Hawar_Daun_Bakteri;;;;;;;;;;;;;;;;;;v
+Lubang_di_Batang,Tepi_Daun_Dihisap,Bentuk_Belah_Ketupat,Mudah_Dicabut,Kotoran_di_Batang,Bulir_Kosong,Penggerek_Batang_Padi;;;;;;;;;;;;;;;;;;v
+Bulir_Mengarat,Kotoran_di_Batang,Mudah_Dicabut,Lubang_di_Batang,Terdapat_Wereng_Coklat,Bekas_makan_di_Daun,Penggerek_Batang_Padi;;;;;;;;;;;;;;;;;;
+Hangus_Melingkar,Tanaman_Menguning,Bulir_Masak_Susu,Imago,Bulir_Kosong,Hangus,Wereng_Coklat;;;;;;;;;;;;;;;;;;v
+Serangan_Merata,Menular,Tulang_Daun_Menguning,Berubah_Warna_Kuning,Nimfa_Coklat,Bulir_Mengarat,Hawar_Daun_Bakteri;;;;;;;;;;;;;;;;;;v
+Pembengkakan_Jaringan_Akar_Kait,Pembengkakan_Jaringan_Akar,Tulang_Daun_Menguning,Spot,Perubahan_Bentuk,Bulir_Kosong,Nematoda_Akar_Padi;;;;;;;;;;;;;;;;;;
+Pembengkakan_Jaringan_Akar,Hangus,Bulir_Masak_Susu,Pembengkakan_Jaringan_Akar_Kait,Pertumbuhan_Terhambat,Daun_Menguning,Nematoda_Akar_Padi;;;;;;;;;;;;;;;;;;
+Tulang_Daun_Menguning,Mudah_Dicabut,Tanaman_Kerdil,Serangan_Merata,Bulir_Menghitam,Terdapat_Wereng_Coklat,Hawar_Daun_Bakteri dan Kerdil_Rumput;;;;;;;;;;;;;;;;;;v
+Imago,Pangkal_Malai_Membusuk,Pola_Makan_Acak,Bentuk_Belah_Ketupat,Pucuk_Daun_Menguning,Pertumbuhan_Terhambat,Blas_Padi;;;;;;;;;;;;;;;;;;v
+Bulir_Menghitam,Bulir_Mengarat,Nimfa,Malai_Hampa,Bulir_Masak_Susu,Bibit_Mati,Gosong_Palsu;;;;;;;;;;;;;;;;;;
+Tanaman_Kerdil,Malai_Membusuk,Perubahan_Bentuk,Terdapat_Wereng_Coklat,Pembengkakan_Jaringan_Akar,Pembengkakan_Jaringan_Akar_Kait,Kerdil_Rumput dan Nematoda_Akar_Padi;;;;;;;;;;;;;;;;;;v
+Terdapat_Wereng_Coklat,Tanaman_Kerdil,Bulir_Masak_Susu,Terdapat_Wereng_Hijau,Tepi_Daun_Dihisap,Daun_Menguning,Kerdil_Rumput dan Virus_Tungro;;;;;;;;;;;;;;;;;;
+Bekas_makan_di_Daun,Benih_Tertular,Telur_Pada_Tanaman,Lebar,Pembengkakan_Jaringan_Akar_Kait,Nimfa_Coklat,Belalang;;;;;;;;;;;;;;;;;;V
+Lubang_di_Batang,Imago,Telur_Pada_Tanaman,Kotoran_di_Batang,Bibit_Mati,Menular,Penggerek_Batang_Padi;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;v
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;v
+;;;;;;;;;;;;;;;;;;v
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;v
+;;;;;;;;;;;;;;;;;;v
+;;;;;;;;;;;;;;;;;;V
+;;;;;;;;;;;;;;;;;;v

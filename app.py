@@ -3,6 +3,9 @@ import time
 from rdflib import Graph,Namespace,URIRef,Literal
 from pyfiglet import Figlet 
 from colorama import init, Fore, Style, Back
+import nltk
+from nltk.corpus import stopwords
+
 
 init()
 
@@ -11,7 +14,7 @@ EX = Namespace("http://www.semanticweb.org/user/ontologies/2023/11/untitled-onto
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 g.bind("rdfs", RDFS)
 g.bind("ex", EX)
-g.parse("data/dataku.rdf", format='xml')
+g.parse("app/data/dataku.rdf", format='xml')
 b = "http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#"
 
 #! Buat Inputan User
@@ -19,7 +22,16 @@ def prepocessingData(text):
     text = text.lower()
     text = re.sub(r'\W+', ' ', text)
     text = re.sub(r'\d+', '', text)
-    return text
+    #! KATA IMBUHAN
+    nltk.download('stopwords',quiet=True,)
+    stop_words = set(stopwords.words('indonesian'))
+    # Tokenisasi teks
+    pre_text = re.findall(r'\b\w+\b', text)
+    # Hapus stopwords
+    clear_text = [kata for kata in pre_text if kata.lower() not in stop_words]
+    # Gabungkan kata-kata yang sudah dibersihkan
+    clear = ' '.join(clear_text)
+    return clear
 
 def loadGejala():
     list_gejala = []
@@ -85,7 +97,8 @@ def main():
         if x.lower() == 'exit':
             count = False
             continue
-
+        
+        x = prepocessingData(x)
         list_gejala = []
         for i in loadGejala():    
             text = i.lower()
@@ -93,10 +106,7 @@ def main():
             text = re.sub(r'\d+', '', text)
             list_gejala.append(text)
 
-        inputan = x.lower()
-        inputan = re.sub(r'\W+', ' ', inputan)
-        inputan = re.sub(r'\d+', '', inputan)
-
+        inputan = str(x)
         deteksi_gejala = deteksiGejala(inputan, list_gejala)
 
         print_separator()

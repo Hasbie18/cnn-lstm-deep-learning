@@ -289,9 +289,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang__tanaman_terinfeksi -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang_tanaman_terinfeksi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang__tanaman_terinfeksi">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang_tanaman_terinfeksi">
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#gejala"/>
         <rdfs:abstract>Batang  tanaman yang terinfeksi membusuk.</rdfs:abstract>
         <rdfs:label>batang tanaman terinfeksi</rdfs:label>
@@ -1519,7 +1519,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#hama"/>
         <untitled-ontology-40:diberikanPestisida rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#penyemprotan"/>
         <untitled-ontology-40:disebabkanOleh rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Atherigona_exigua"/>
-        <untitled-ontology-40:memilikiGejala rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang__tanaman_terinfeksi"/>
+        <untitled-ontology-40:memilikiGejala rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#Batang_tanaman_terinfeksi"/>
         <untitled-ontology-40:memilikiGejala rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#klorosis"/>
         <untitled-ontology-40:memilikiGejala rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#tanaman_menjadi_kerdil"/>
         <untitled-ontology-40:pengendalianKultural rdf:resource="http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#penanaman_serentak"/>

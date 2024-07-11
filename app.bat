@@ -1,4 +1,4 @@
 @echo off
-cd D:\hasbi/build/app
+cd D:\Tugas/Skripsi/code
 py app.py
 pause

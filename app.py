@@ -14,7 +14,7 @@ EX = Namespace("http://www.semanticweb.org/user/ontologies/2023/11/untitled-onto
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 g.bind("rdfs", RDFS)
 g.bind("ex", EX)
-g.parse("app/data/dataku.rdf", format='xml')
+g.parse("data/dataku.rdf", format='xml')
 b = "http://www.semanticweb.org/user/ontologies/2023/11/untitled-ontology-40#"
 
 #! Buat Inputan User
